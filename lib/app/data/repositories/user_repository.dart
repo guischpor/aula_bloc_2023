@@ -35,4 +35,8 @@ class TarefaRepository {
       () => _tarefas,
     );
   }
+
+  clearListTarefas() {
+    _tarefas.clear();
+  }
 }
